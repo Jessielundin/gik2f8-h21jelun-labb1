@@ -28,13 +28,9 @@ function renderBookList(bookList) {
 }
 
 /* Här börjar min kod för Labb 1 */
-
-
 var div = document.createElement('div');
 
-
 /* funktion som visar bok detaljer */ 
-
 function bookDetailWindow(x){
   let book  
   x.addEventListener('mouseenter',(e) =>
@@ -63,12 +59,8 @@ function bookDetailWindow(x){
 
 /* Göm rutan när musen lämnar ett bokresultat */
 function hideDetailWindow(x) {
-
   x.addEventListener('mouseleave',() =>  
   document.body.appendChild(div),
   div.innerHTML = `<div hidden "></div>`
-
-  
   );
- 
 }
