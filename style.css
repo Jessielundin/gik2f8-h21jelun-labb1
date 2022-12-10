@@ -1,0 +1,11 @@
+.detailWindow {
+  left: 60%;
+  top:40%;
+  
+  
+} 
+
+.no-outline:focus {
+  outline: none;
+}
+

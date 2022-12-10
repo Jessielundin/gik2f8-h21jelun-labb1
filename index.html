@@ -7,17 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GIK2F8 - Sökfunktion</title>
   <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gradient-to-tr from-sky-400 to-lime-500  h-screen">
-  <h1 class="text-green-900 text-6xl text-center mt-4 mb-7">Sök böcker</h1>
+<body class="bg-gradient-to-tr from-amber-300 to-orange-400 h-screen">
+  <h1 class="text-6xl text-black text-center font-serif mt-10 mb-1">Sök böcker</h1>
   <main id="root"
-        class="bg-white/40 py-12 px-6 w-full md:w-4/5 mx-auto rounded-lg flex justify-center align-center flex-col gap-2">
-    <label class="text-green-900 text-xl block" for="searchField">Ange sökord</label>
-    <input class="rounded-full p-2"
-           id="searchField"
-           type="text" />
+    class="py-12 px-6 w-5/6 md:w-1/3 mx-auto bg-white/30 rounded-lg flex justify-center align-center flex-col gap-2">
+    <label class="block" for="searchField">Ange sökord</label>
+    <input class="rounded-lg p-2 no-outline" id="searchField" type="text" />
 
   </main>
   <script src="api/api.js"></script>
